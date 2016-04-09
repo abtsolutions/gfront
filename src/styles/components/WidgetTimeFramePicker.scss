@@ -1,0 +1,32 @@
+.WidgetTimeFramePicker {
+  display: block;
+
+  &_Type {
+    display: inline-block;
+
+    > span {
+      display: inline-block;
+      width: 60px;
+      margin-left: 20px;
+      font-weight: 500;
+    }
+  }
+
+  &_Value {
+    display: inline-block;
+
+    > div {
+      display: inline-block;
+      margin: 0 10px;
+
+      > div {
+        width: 100px !important;
+
+        input {
+          text-align: center;
+        }
+      }
+    }
+
+  }
+}

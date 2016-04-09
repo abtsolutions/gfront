@@ -1,0 +1,35 @@
+.SectionMainFilters {
+  @include clearfix-micro();
+
+  margin: 10px 0 0 0;
+  padding: 15px 10px 10px 10px;
+  width: 100%;
+  background-color: #00bcd4 !important;
+
+  * {
+    color: white !important;
+  }
+  &-grid {
+    display: inline-block;
+    margin-bottom: 20px;
+    span {
+      display: inline-block;
+      width: 130px;
+      font-size: 14px;
+      text-align: right;
+      font-weight: 500;
+    }
+    &_OneSix {
+      width: 16.666666667%;
+      float: left;
+    }
+    &_OneHalf {
+      // width: 30%;
+      float: left;
+    }
+    &_OneThird {
+      width: 33%;
+      float: left;
+    }
+  }
+}

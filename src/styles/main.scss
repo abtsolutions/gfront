@@ -1,0 +1,41 @@
+// BEM name conventions approach quick description:
+
+// Pattern
+// .namespace-ComponentName_ModifierName-variant-label
+
+// Description
+//  * name-space : all lowercase/train-case (optional).
+//  * ComponentName : upper camel case (non-optional)
+//  * _ModifierName : upper camel case preceded by an underscore (optional)
+//  * -variant-label : all lowercase/train-case (optional)
+
+// Simple Rules
+//  * If the first part of a class is all lowercase/train-case it is a namespace (I typically use this for very specific features or special interests e.g. js-Thing for a JavaScript hook)
+//  * If the first part of a class is CamelCase it is a component
+//  * If something UpperCamelCase is preceded by an underscore it is a ModifierName (if not it is a ComponentName)
+//  * If something is all lowercase/train-case and not the first part of a class name it is a variant label
+//  * Finally, if a class is lowercase, all by itself then it is a utility class e.g. w50, blk.
+
+@import './components/LayoutMain';
+@import './components/SectionTopFilters';
+@import './components/SectionMainFilters';
+@import './components/SectionAggregates';
+@import './components/SectionAggregateGraphsGrid';
+@import './components/SectionGraphsGrid';
+@import './components/Stats';
+@import './components/HeatMap';
+
+@import './components/WidgetTimeFramePicker';
+@import './components/WidgetNodePicker';
+@import './components/WidgetMetricPicker';
+@import './components/WidgetHostsScaledPicker';
+@import './components/WidgetNodeMatchingPicker';
+@import './components/WidgetGraphSizePicker';
+@import './components/WidgetGraphColumnPicker';
+@import './components/WidgetGraphMaxPicker';
+
+@import './components/DropDownMenu';
+@import './components/TextField';
+@import './components/FlatButton';
+
+@import './components/Icon';

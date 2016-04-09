@@ -1,0 +1,8 @@
+.DS_Store
+/.idea/libraries
+/.idea/dictionaries
+/.idea/workspace.xml
+/.idea/uiDesigner.xml
+/node_modules/
+*.log
+/public/assets/

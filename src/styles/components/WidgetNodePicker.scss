@@ -1,0 +1,10 @@
+.WidgetNodePicker {
+  display: block;
+
+  > span {
+    display: inline-block;
+    width: 60px;
+    margin-left: 20px;
+    font-weight: 500;
+  }
+}

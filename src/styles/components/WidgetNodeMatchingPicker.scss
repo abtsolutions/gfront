@@ -1,0 +1,9 @@
+.WidgetNodeMatchingPicker {
+  display: inline-block;
+  width: 100%;
+
+  > .FlatButton {
+    top: -20px;
+    margin: 0 0 0 10px;
+  }
+}
